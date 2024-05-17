@@ -1,0 +1,47 @@
+/* dashboard.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-item {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order-item h3 {
+  margin: 0;
+}
+
+.order-item p {
+  margin: 5px 0;
+}
+
+.order-item .details {
+  margin-top: 10px;
+}
+
+.order-item .timestamp {
+  font-style: italic;
+  color: #777;
+}
